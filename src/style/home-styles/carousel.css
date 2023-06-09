@@ -1,0 +1,51 @@
+.carousel {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+    background-color: rgb(214, 210, 210);
+}
+
+.inner {
+    white-space: nowrap;
+    transition: transform .99s;
+}
+
+.carousel-item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 333px;
+}
+
+.carousel-item img {
+    position: absolute;
+    height: 400px;
+    width: 300px;
+}
+
+.carousel-item h1 {
+    position: relative;
+    font-family: 'Permanant-Marker', cursive;
+    font-size: 20px;
+    color: white;
+}
+
+.indicators {
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 175px;
+  }
+  
+  .indicators button {
+    display: flex;
+    border-radius: 30px;
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }

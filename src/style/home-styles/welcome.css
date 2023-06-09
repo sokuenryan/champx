@@ -1,0 +1,41 @@
+.welcome-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    margin-right: 60px;
+}
+
+.welcome-text-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    color:  black;
+}
+
+.welcome-text-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.welcome-text-top > h1 {
+    font-family: 'Permanant Marker', cursive;
+    font-size: 35px;
+}
+
+.welcome-text-top > p {
+    font-family: 'Permanant Marker', cursive;
+    font-size: 15px;
+}
+
+.welcome-text-bottom > p {
+    font-family: 'Permanant Marker', cursive;
+    font-size: 15px;
+}

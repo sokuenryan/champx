@@ -1,0 +1,41 @@
+.searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    border: 2px solid black;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.searchbar > input {
+    padding-left: 5px;
+    height: 35px;
+    width: 300px;
+    border: none;
+    background-color: #eee;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.searchbar > input:focus {
+    outline: none;
+}
+
+.searchbar > select {
+    height: 35px;
+    border: none;
+    background-color: #eee;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+};
+
+.searchbar > select:focus {
+    outline: none;
+}
+
+.searchbar > button {
+    width: 35px;
+    height: 35px;
+    background-color: #eee;
+    border: none;
+    border-radius: 0px 15px 15px 0px;
+};

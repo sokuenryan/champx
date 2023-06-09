@@ -1,0 +1,43 @@
+.homepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage-header-wrapper {
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+}
+
+.home-header-one {
+    display: flex;
+    align-items: center;
+    border-bottom: .5px solid gray;
+}
+
+.home-header-two {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border-bottom: .5px solid gray;
+}
+
+.header-icons {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.header-icons a {
+    text-decoration: none;
+    color: black;
+}
+
+.home-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
